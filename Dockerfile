@@ -19,7 +19,6 @@ EXPOSE 8501
 
 # copying all files over
  COPY movie_recommendations.py movie_recommendations.py
-# COPY app.py app.py
 
 # streamlit-specific commands for config
 ENV LC_ALL=C.UTF-8
