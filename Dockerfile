@@ -11,7 +11,7 @@ RUN apt-get update --allow-unauthenticated -y
  COPY requirements.txt ./requirements.txt
 
 # install pip then packages
-#RUN pip install -r requirements.txt
+RUN pip install -r requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
 
 # exposing default port for streamlit
