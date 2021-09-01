@@ -18,7 +18,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 EXPOSE 8501
 
 # copying all files over
- COPY movie_recommendations.py movie_recommendations.py
+ COPY user_number.py user_number.py
 
 # streamlit-specific commands for config
 ENV LC_ALL=C.UTF-8
@@ -44,4 +44,4 @@ EXPOSE 8501
 # cmd to launch app when container is run
 ENTRYPOINT ["streamlit", "run"]
 
- CMD ["movie_recommendations.py"]
+ CMD ["user_number.py"]
