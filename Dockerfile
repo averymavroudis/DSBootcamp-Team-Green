@@ -19,6 +19,7 @@ EXPOSE 8501
 
 # copying all files over
  COPY user_number.py user_number.py
+ COPY Garage_Bootcamp Garage_Bootcamp
 
 # streamlit-specific commands for config
 ENV LC_ALL=C.UTF-8
